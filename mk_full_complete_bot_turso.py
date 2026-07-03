@@ -9,11 +9,11 @@ from telebot import types
 # ════════════════════════════════════════════════════════════
 # CONFIG
 # ════════════════════════════════════════════════════════════
-BOT_TOKEN      = os.environ.get("BOT_TOKEN", "")
+BOT_TOKEN      = os.environ.get("BOT_TOKEN", "8570269160:AAEl4H7JWF2yTQ2Gh_H9uqrJm-6eNatDTVc")
 SUPER_ADMIN_ID = int(os.environ.get("SUPER_ADMIN_ID", "7294781579"))
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD", "mkmuzahid")
-TURSO_URL      = os.environ.get("TURSO_URL", "")
-TURSO_TOKEN    = os.environ.get("TURSO_TOKEN", "")
+TURSO_URL      = os.environ.get("TURSO_URL", "libsql://mkfullcompletebot-muzahidkagushi-lab.aws-ap-south-1.turso.io")
+TURSO_TOKEN    = os.environ.get("TURSO_TOKEN", "eyJhbGciOiJFZERTQSIsInR5cCI6IkpXVCJ9.eyJhIjoicnciLCJpYXQiOjE3ODMwNDM4MTAsImlkIjoiMDE5ZjI1YWYtMDgwMS03NzU3LWJjNDctZjE0MThhZTc3YjRkIiwia2lkIjoick9SNGw2SlVNaGhYZlZsWU1XeC1IQWFaREt1OVlrbzFUT0x2MFFrcERDSSIsInJpZCI6ImM5MzliMzhkLWM1ZTMtNDczOS1hZDcxLTZmOTFhZDFhNTNmMCJ9.KSxvg627BnS54nh3syIv9eofZ48XFGIXAmfHYMT52WWORRsjkzHQXBkcmewO6KAWqnV1muct7cDnQJ3_D8KUAQ")
 LOG_FILE       = "error.log"
 
 if not BOT_TOKEN or not TURSO_URL or not TURSO_TOKEN:
